@@ -1,0 +1,6 @@
+{
+  "name": "PharmaShelf",
+  "description": "Batch-wise pharmacy inventory and expiry management for shop owners and shopkeepers with English and Telugu support.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

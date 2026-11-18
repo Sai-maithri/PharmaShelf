@@ -1,0 +1,38 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="psBg" x1="48" y1="32" x2="464" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="55%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="psSheen" x1="64" y1="32" x2="384" y2="384" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="psShelf" x1="192" y1="300" x2="400" y2="336" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#99f6e4" />
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="128" fill="url(#psBg)" />
+  <rect x="24" y="24" width="464" height="464" rx="120" fill="url(#psSheen)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="12" />
+
+  <rect x="112" y="120" width="44" height="272" rx="22" fill="#ffffff" />
+  <path
+    d="M136 142H252C280.72 142 304 165.28 304 194C304 222.72 280.72 246 252 246H136"
+    stroke="#ffffff"
+    stroke-width="40"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <g transform="translate(340 188) rotate(-42)">
+    <rect x="-80" y="-40" width="160" height="80" rx="40" fill="#ffffff" />
+    <path d="M0 -40H40C62.09 -40 80 -22.09 80 0C80 22.09 62.09 40 40 40H0V-40Z" fill="#5eead4" />
+  </g>
+
+  <rect x="192" y="300" width="208" height="36" rx="18" fill="url(#psShelf)" />
+  <rect x="192" y="356" width="144" height="36" rx="18" fill="#ffffff" fill-opacity="0.88" />
+  <circle cx="380" cy="374" r="20" fill="#5eead4" />
+</svg>
